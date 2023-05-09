@@ -1,11 +1,13 @@
-
 [<img alt="crates.io" src="https://img.shields.io/crates/v/timestampvm.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/timestampvm)
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-timestampvm-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/timestampvm)
 ![Github Actions](https://github.com/ava-labs/timestampvm-rs/actions/workflows/test-and-release.yml/badge.svg)
 
-# `timestampvm-rs`
+# `Tic-Tac-Toe VM`
 
-`timestampvm-rs` is a virtual machine that can build blocks from a user-provided arbitrary data. It is a minimal implementation of an Avalanche custom virtual machine (VM) in Rust, using the Avalanche [Rust SDK](https://github.com/ava-labs/avalanche-types-rs).
+`Tic-Tac-Toe VM` is a virtual machine that allows users to play Tic-Tac-Toe on
+the blockchain. It is a minimal implementation of an Avalanche custom virtual machine (VM)
+in Rust, using the Avalanche [Rust
+SDK](https://github.com/ava-labs/avalanche-types-rs).
 
 Currently, Avalanche custom VM requires the following:
 
@@ -34,18 +36,19 @@ See [`bin/timestampvm`](timestampvm/src/bin/timestampvm/main.rs) for plugin impl
 
 ## Dependencies
 
-- Latest version of stable Rust.
-- To build and test timestampvm you need [protoc](https://grpc.io/docs/protoc-installation/#install-pre-compiled-binaries-any-os) version >= 3.15.0.
+-   Latest version of stable Rust.
+-   To build and test timestampvm you need [protoc](https://grpc.io/docs/protoc-installation/#install-pre-compiled-binaries-any-os) version >= 3.15.0.
 
 ## AvalancheGo Compatibility
-| Version(s) | AvalancheGo Version(s) |
-| --- | --- |
-| v0.0.6  | v1.9.2,v1.9.3 |
-| v0.0.7  | v1.9.4 |
-| v0.0.8, v0.0.9  | v1.9.7 |
-| v0.0.10 | v1.9.8, v1.9.9 |
-| v0.0.11,12 | v1.9.10 - v1.9.16 |
-| v0.0.13 | v1.10.0 |
+
+| Version(s)     | AvalancheGo Version(s) |
+| -------------- | ---------------------- |
+| v0.0.6         | v1.9.2,v1.9.3          |
+| v0.0.7         | v1.9.4                 |
+| v0.0.8, v0.0.9 | v1.9.7                 |
+| v0.0.10        | v1.9.8, v1.9.9         |
+| v0.0.11,12     | v1.9.10 - v1.9.16      |
+| v0.0.13        | v1.10.0                |
 
 ## Example
 
